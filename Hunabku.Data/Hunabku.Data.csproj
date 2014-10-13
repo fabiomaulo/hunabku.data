@@ -44,6 +44,11 @@
   <ItemGroup>
     <Compile Include="CompiledSetValuesClause.cs" />
     <Compile Include="ConnectionProviderFactory.cs" />
+    <Compile Include="Contexts\CallDbTransactionContextProvider.cs" />
+    <Compile Include="Contexts\CommandActionDbTransactionContext.cs" />
+    <Compile Include="Contexts\NoDisposableWrapperDbTransactionContext.cs" />
+    <Compile Include="Contexts\ThreadDbTransactionContextProvider.cs" />
+    <Compile Include="Contexts\TransientDbTransactionContextProvider.cs" />
     <Compile Include="IConnectionProvider.cs" />
     <Compile Include="IDbTransactionContext.cs" />
     <Compile Include="IDbTransactionContextProvider.cs" />
