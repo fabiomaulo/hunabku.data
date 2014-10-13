@@ -45,6 +45,8 @@
     <Compile Include="CompiledSetValuesClause.cs" />
     <Compile Include="ConnectionProviderFactory.cs" />
     <Compile Include="IConnectionProvider.cs" />
+    <Compile Include="IDbTransactionContext.cs" />
+    <Compile Include="IDbTransactionContextProvider.cs" />
     <Compile Include="IWhereClause.cs" />
     <Compile Include="IWherePredicate.cs" />
     <Compile Include="PredicatesExtensions.cs" />
