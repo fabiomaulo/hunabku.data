@@ -46,12 +46,16 @@
     <Compile Include="IConnectionProvider.cs" />
     <Compile Include="IWhereClause.cs" />
     <Compile Include="IWherePredicate.cs" />
+    <Compile Include="PredicatesExtensions.cs" />
     <Compile Include="Predicates\InPredicate.cs" />
+    <Compile Include="Predicates\PredicateClause.cs" />
     <Compile Include="Predicates\PredicateOnly.cs" />
     <Compile Include="Predicates\PredicateWithParameter.cs" />
+    <Compile Include="Predicates\PredicateWithParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryParameter.cs" />
     <Compile Include="SqlConnectionProvider.cs" />
+    <Compile Include="WhereAndClause.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
