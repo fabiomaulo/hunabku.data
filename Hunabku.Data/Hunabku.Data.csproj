@@ -62,6 +62,7 @@
     <Compile Include="Predicates\PredicateWithParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryParameter.cs" />
+    <Compile Include="SetValuesClause.cs" />
     <Compile Include="SqlConnectionProvider.cs" />
     <Compile Include="WhereAndClause.cs" />
     <Compile Include="WhereOrClause.cs" />
