@@ -49,6 +49,12 @@
     <Compile Include="Contexts\NoDisposableWrapperDbTransactionContext.cs" />
     <Compile Include="Contexts\ThreadDbTransactionContextProvider.cs" />
     <Compile Include="Contexts\TransientDbTransactionContextProvider.cs" />
+    <Compile Include="FieldMapper.cs" />
+    <Compile Include="FieldMappers\AbstractFieldType.cs" />
+    <Compile Include="FieldMappers\Int32FieldType.cs" />
+    <Compile Include="FieldMappers\NotNullableFieldType.cs" />
+    <Compile Include="FieldMappers\NullableFieldType.cs" />
+    <Compile Include="FieldMappers\StringFieldType.cs" />
     <Compile Include="IConnectionProvider.cs" />
     <Compile Include="IDbTransactionContext.cs" />
     <Compile Include="IDbTransactionContextProvider.cs" />
