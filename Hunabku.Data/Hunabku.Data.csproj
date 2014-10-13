@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="ConnectionProviderFactory.cs" />
     <Compile Include="IConnectionProvider.cs" />
+    <Compile Include="IWhereClause.cs" />
+    <Compile Include="IWherePredicate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryParameter.cs" />
     <Compile Include="SqlConnectionProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
